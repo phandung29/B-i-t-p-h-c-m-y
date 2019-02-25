@@ -1,0 +1,121 @@
+# BAI TAP BUOI 1
+Bài tập 1
+\documentclass[ebook,12pt,oneside,openany]{memoir}
+\usepackage[utf8x]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{url}
+\usepackage{lettrine}
+\usepackage{color}
+
+\usepackage[framemethod=tikz]{mdframed}
+
+% this draw double, round corner but fails Vietnamese characters
+%\mdfdefinestyle{mybox}{%
+%pstricksappsetting={\addtopsstyle{mdfmiddlelinestyle}{%
+%doubleline=true,doublesep=6pt,linewidth=4pt}},%
+%linecolor=black,middlelinewidth=16pt,roundcorner=10pt
+%}
+
+\mdfdefinestyle{mybox}{%
+linecolor=black,middlelinewidth=2pt,roundcorner=10pt
+}
+\title{Bài Tập Chương I}
+
+\author{phanvandung2904@gmail.com}
+\date{February 2019}
+\begin{document}
+\section{Trí tuệ là gì?}
+
+\begin{itemize}
+\item \textbf{Trí tuệ}  là một thuật ngữ được sử dụng trong các nghiên cứu về tâm trí con người. Là khả 
+năng học và áp dụng kiến thức kỹ năng.
+\item  Năm 1983, giáo sư tâm lý học Howard Gardner thuộc Đại học Harvard đã đề xuất một quan điểm mới
+về các loại hình trí thông minh của con người.  Ông đã chứng minh rằng có 9 loại thông minh và nó đã và đang được áp dụng rộng rãi trong nền giáo dục hiện nay. Nó gồm: 
+    
+\begin{enumerate}
+\item  Trí thông minh tự nhiên
+\item  Trí thông minh âm nhạc và thính giác
+\item  Trí thông minh toán học và logic
+\item  Trí thông minh triết học
+\item  Trí thông minh tương tác và giao tiếp
+\item  Trí thông minh thế chất 
+\item  Trí thông minh ngôn ngữ
+\item  Trí thông minh nội tâm 
+\item  Trí thông minh không gian và thị giác
+\end{enumerate}
+
+\end{itemize}
+    
+\section{Trí tuệ nhân tạo (artificial intelligence, AI) là gì? Những tiến bộ nào góp phần dẫn đến cuộc
+cách mạng AI?}
+
+\begin{enumerate}
+\item \textbf{Trí tuệ nhân tạo (artificial intelligence,AI)}:     
+   
+\begin{itemize}
+\item  Là máy tính với một số chức năng về trí tuệ giống với con người.
+\item  Máy tính với khả năng học và áp dụng kiến thức,
+kỹ năng đó vào hàm số để viết nên chương trình máy tính .
+\end{itemize}
+
+\item \textbf{Những tiến bộ nào góp phần dẫn đến cuộc cách mạng AI?}
+\end{enumerate}
+\text{Qua lịch sử chúng ta đã được biết sự hình thành và tiến hóa của loài người. Từ việc phát minh và sử dụng công cụ rồi sư dụng công cụ để giải phóng năng lượng và sức lao động cũng như việc phát triển về thông tin, kiến thức, văn hóa,  ngôn ngữ và  trí tuệ. }
+\text{Từ những tiến bộ có được kể trên cùng với sự phát triển của những cuộc cách mạng về công nghệ khiến cho lượng dữ liệu ngày càng tăng gây ra sử bùng nổ phát triển, nguồn dữ liệu khổng lồ ( big data), ứng dụng sâu rộng trên nhiều lĩnh vực đã góp phần dẫn đến cuộc cách mạng AI. }
+
+\section{Học là gì? Học máy (machine learning; ML) là gì? Vị trí của ML trong AI? Kiến thức kỹ năng có thể được biểu diễn trong máy tính ra sao?}
+   
+\begin{enumerate}
+\item  Học là gì :\\
+\text{ Là thu thập kiến thức, kỹ năng mới thông qua trải nghiệm giáo dục, nghiên cứu. Thường được thấy nhiều ở trẻ em trong việc tiếp nhận khiến thức để tư duy.}
+\item  Học máy là gì?\\
+\text{Là máy tinh học thông qua các trải nghiệm}\\
+\item  Vị trí của ML trong AI?\\
+\text{Là chức năng xử lý thông tin của một chương trình máy tính}
+\item  Kiến thức kỹ năng có thể được biểu diễn trong máy tính ra sao?\\
+\text{Biểu diễn qua cách xử lý của chương trình máy tính}
+
+\end{enumerate}
+\section{Các thành phần cơ bản (TEFPA như trong bài giảng) cần được mô tả và cung cấp để máy tính tự học cách giải quyết một tác vụ là gì?}
+\text{Cho nhiệm vụ T (task), trải nghiệm E (experience), chuẩn đánh giá P (performance), giải thuật A (algorithm), không gian hàm số F (function space).\\
+tìm giả thuyết/hàm f thuộc F có độ khái quát cao nhất. }
+\section{Mô tả tác vụ (đầu ra đầu vào là gì) và kinh nghiêm cần chuẩn bị (cần thu thập dự liệu gì, cách thu thập ra sao, trong bao lâu, cần ai giúp đỡ việc gì, mức độ khó khăn về thời gian công sức trang thiết bị v.v.) cho các ứng dụng sau:}\\
+\text{a) Máy tính chuyển một tấm ảnh chất lượng kém (mờ, low-resolution) lên thành ảnh rõ nét (high-resolution)}
+\text{Đầu vào chính là tấm ảnh có chất lượng kém \\ 
+Đầu ra là ảnh có chất lượng cao, cần thu thập thông tim về màu sắc, độ phân giải của hình ảnh\\
+Thu thập dựa trên thông tin mà bức ảnh chất lượng thấp có. \\
+Thời gian khoảng 10 phút\\
+Cần các phần mềm về photoshop\\
+Tùy thuộc một phần vào bộ vi xử lý của máy tính mạnh hay yếu\\
+Độ khó khăn: mức độ vừa.}\\
+\text{b) Máy tính xử lý ảnh chụp X-quang và dự đoán bệnh}
+\text{Đầu vào là bức ảnh chụp X-quang\\
+Đầu ra là giấy chuẩn đoán bệnh\\
+Cần thu thập dữ liệu về hồ sơ bệnh án của bệnh nhân\\
+Xem qua hồ sơ bệnh án đã được lưu trữ\\
+thời gian 10 phút\\
+Máy tính chuẩn đoán cần được học nhưng thông tin cần thiết về cách loại bệnh cũng như biết về cách điểu trị bệnh lý đó\\
+Cần có sự hỗ trợ của các bác sĩ chuyên khoa, giáo sư tiến sĩ về thông tin của những loại bệnh \\
+Thời gian hoàn thành chưa biết rõ ( dự tính từ 3 - 5 năm đê hoàn thành nền tảng sau đó mới tiếp tục cập nhập )\\
+Độ khó : Rất Cao\\
+}
+\text{c) Máy tính đọc một email của khách hàng và tự chuyển đến thư mục tương ứng như "cảm ơn", 
+"khiếu nại", "hỏi thông tin", "xin việc", v.v.}
+\text{Đầu vào là email gửi đến\\
+Đầu ra là chuyển vào các thư mục hiện có\\
+Cần thu thập thông tin về ngôn ngữ đó máy tính cần phải có hiểu biết về ngôn ngữ đó trước\\
+Thu thập thông qua mạng, sách vở hoặc các phần mềm về ngôn ngữ, người có hiểu biết cao về ngôn ngữ\\ 
+thường tốn thời gian 2-3 năm cho một loại ngôn ngữ thường công việc sẽ phải chia theo nhiều nhóm nhỏ\\
+Máy tính cần xác định được những từ, cụm từ mang ý nghĩa về cảm xúc, văn phong để xác định và phân loại các loại thư ra cho phù hợp \\
+Độ khó: cao}
+\section{Ý nghĩa của phát biểu sau: Máy tính "học" bằng cách tìm kiếm trong không gian của các hàm sô (chương trình máy tính).}
+\text{Có thể coi như vậy để dễ hình dung hơn về sự trừu tường của cách mà máy tình tìm dữ liều trong không gian bộ nhớ của nó để phân tích cũng như xử lý bài toán.}
+
+\section{Hai vấn đề chính về không gian hàm mà ta cần đặc biệt chú ý để giúp máy tính tự tìm kiếm hàm có độ khái quát hóa cao là gì?}
+\text{tìm hàm tối ưu trong function space: representation and search\\
+Ta cần "đo" hướng và độ lớn của hàm, khoảng cách (hay mức độ giống nhau) giữa các hàm, xác định hướng di chuyển "nhanh nhất" trong không gian hàm, etc, giúp tìm kiếm các phần tử hàm này trong không gian  
+}
+\section{Chia sẻ với bạn bè về các điều mà học viên thấy lý thú qua bài giảng này}
+\text{Thông qua bài học em đã hiểu biết nhiều hơn về những định nghĩa cũng như những khái niệm cơ bản về sự hình thành cũng như phát triên của trí tuệ nhân tạo. Qua đó em đã hiểu biết thêm về cách hoạt động của học máy(ML) cũng như hàm số.}
+
+\end{document}
